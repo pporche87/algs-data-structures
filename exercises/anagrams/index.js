@@ -8,6 +8,13 @@
 //   anagrams('RAIL! SAFETY!', 'fairy tales') --> True
 //   anagrams('Hi there', 'Bye there') --> False
 
+// ============================
+// My solution
+// ============================
 function anagrams(stringA, stringB) {}
 
 module.exports = anagrams;
+
+anagrams('rail safety', 'fairy tales') // --> True
+anagrams('RAIL! SAFETY!', 'fairy tales') // --> True
+anagrams('Hi there', 'Bye there') // --> False
