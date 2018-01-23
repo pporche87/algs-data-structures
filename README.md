@@ -6,11 +6,21 @@
 - [x] maxchar
 - [x] fizzbuzz
 - [x] chunk
-- [ ] anagrams
+- [x] anagrams
+- [x] capitalize
+- [ ] steps
+- [ ] pyramid
+- [ ] vowels
+- [ ] matrix
+- [ ] fib
+- [ ] queue
+- [ ] weave
+- [ ] stack
 - [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+- [ ] midpoint
+- [ ] circular
+- [ ] 
+- [ ] tree
+- [ ] validate
+- [ ] events
+- [ ] sorting
