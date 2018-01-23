@@ -8,8 +8,8 @@
 - [x] chunk
 - [x] anagrams
 - [x] capitalize
-- [ ] steps
-- [ ] pyramid
+- [x] steps
+- [x] pyramid
 - [ ] vowels
 - [ ] matrix
 - [ ] fib
