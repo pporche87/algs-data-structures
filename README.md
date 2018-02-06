@@ -18,9 +18,9 @@
 - [x] stack
 - [x] qfroms
 - [x] linkedlist
-- [ ] midpoint
-- [ ] circular
-- [ ] fromlast
+- [x] midpoint
+- [x] circular
+- [x] fromlast
 - [ ] tree
 - [ ] levelwidth
 - [ ] bst
