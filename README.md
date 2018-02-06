@@ -10,17 +10,20 @@
 - [x] capitalize
 - [x] steps
 - [x] pyramid
-- [ ] vowels
-- [ ] matrix
-- [ ] fib
-- [ ] queue
-- [ ] weave
-- [ ] stack
-- [ ]
+- [x] vowels
+- [x] matrix
+- [x] fib
+- [x] queue
+- [x] weave
+- [x] stack
+- [x] qfroms
+- [x] linkedlist
 - [ ] midpoint
 - [ ] circular
-- [ ] 
+- [ ] fromlast
 - [ ] tree
+- [ ] levelwidth
+- [ ] bst
 - [ ] validate
 - [ ] events
 - [ ] sorting
