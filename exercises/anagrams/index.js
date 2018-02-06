@@ -17,6 +17,8 @@ function anagrams(stringA, stringB) {
   stringA = stringA.replace(/[^\w]/g, '').toLowerCase();
   stringB = stringB.replace(/[^\w]/g, '').toLowerCase();
 
+  
+
   if (stringA.length !== stringB.length) {
     console.log(false);
     return false;
@@ -33,7 +35,7 @@ function anagrams(stringA, stringB) {
 
     for (let char of stringB) {
       if (!stringBMap[char]) {
-        stringBMap[char] = 1;
+        stringBMap[char] = 1; 
       } else {
         stringBMap[char] += 1;
       }

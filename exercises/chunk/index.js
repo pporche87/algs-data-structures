@@ -11,19 +11,19 @@
 // ============================
 // My solution
 // ============================
-// function chunk(array, size) {
-//   const chunked = [];
+function chunk(array, size) {
+  const chunked = [];
 
-//   for (let ele of array) {
-//     let lastEle = chunked[chunked.length-1];
-//     if (!lastEle || lastEle.length === size) {
-//       chunked.push([ele]);
-//     } else {
-//       lastEle.push(ele);
-//     }
-//   }
-//   return chunked;
-// }
+  for (let ele of array) {
+    let lastEle = chunked[chunked.length-1];
+    if (!lastEle || lastEle.length === size) {
+      chunked.push([ele]);
+    } else {
+      lastEle.push(ele);
+    }
+  }
+  return chunked;
+}
 
 chunk([1, 2, 3, 4], 2) // --> [[ 1, 2], [3, 4]]
 chunk([1, 2, 3, 4, 5], 2) // --> [[ 1, 2], [3, 4], [5]]
