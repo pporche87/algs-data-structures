@@ -21,9 +21,9 @@
 - [x] midpoint
 - [x] circular
 - [x] fromlast
-- [ ] tree
-- [ ] levelwidth
-- [ ] bst
-- [ ] validate
-- [ ] events
+- [x] tree
+- [x] levelwidth
+- [x] bst
+- [x] validate
+- [x] events
 - [ ] sorting
