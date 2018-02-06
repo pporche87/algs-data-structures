@@ -26,4 +26,4 @@
 - [x] bst
 - [x] validate
 - [x] events
-- [ ] sorting
+- [x] sorting
