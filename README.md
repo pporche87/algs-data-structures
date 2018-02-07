@@ -1,4 +1,4 @@
-# AlgoCasts
+# AlgoCasts/exercises
 
 - [x] reversestring
 - [x] palindrome
@@ -27,3 +27,6 @@
 - [x] validate
 - [x] events
 - [x] sorting
+
+# AlgoCasts/leetcode
+- [ ] twosum
