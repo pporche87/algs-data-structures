@@ -31,3 +31,12 @@
 # AlgoCasts/leetcode
 - [x] twosum x
 - [ ] twonumbers
+
+# AlgoCasts/algsjavascript
+- [x] fizzbuzz
+- [x] harmlessransom
+- [x] ispalindrome
+- [x] ceasercipher
+- [x] reversewords
+- [x] reversearrayinplace
+- [x] meanmedianmode
