@@ -14,12 +14,14 @@
 //       ' ### '
 //       '#####'
 
-function pyramid(n) {
-  const midpoint = Math.floor((2 * n - 1) / 2);
+const pyramid = n => {
+  const mid = Math.floor((2 * n - 1) /2);
+
   for (let r = 0; r < n; r++) {
     let pyr = '';
+
     for (let c = 0; c < 2 * n - 1; c++) {
-      if (midpoint - r <= c && midpoint + r >= c) {
+      if (mid - r <= c && mid + r >= c) {
         pyr += '#';
       } else {
         pyr += ' ';
@@ -35,23 +37,3 @@ pyramid(3);
 pyramid(5);
 pyramid(10);
 
-function pyramid(n, row = 0, pyr = '') {
-  const midpoint = Math.floor((2 * n - 1) / 2);
-
-  if (n === row) {
-    return;
-  }
-
-  if (pyr.length === 2 * n - 1) {
-    console.log(pyr);
-    return pyramid(n, row + 1);
-  }
-
-  let add;
-  if (midpoint - row <= pyr.length && midpoint + row >= pyr.length) {
-    add = '#';
-  } else {
-    add = ' ';
-  }
-  pyramid(n, row, pyr + add);
-}

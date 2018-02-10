@@ -8,20 +8,19 @@
 // chunk([1, 2, 3, 4, 5], 4) --> [[ 1, 2, 3, 4], [5]]
 // chunk([1, 2, 3, 4, 5], 10) --> [[ 1, 2, 3, 4, 5]]
 
-// ============================
-// My solution
-// ============================
 function chunk(array, size) {
   const chunked = [];
 
   for (let ele of array) {
-    let lastEle = chunked[chunked.length-1];
-    if (!lastEle || lastEle.length === size) {
+    const last = chunked[chunked.length - 1];
+
+    if (!last || last.length === size) {
       chunked.push([ele]);
     } else {
-      lastEle.push(ele);
+      last.push(ele);
     }
   }
+
   return chunked;
 }
 
@@ -40,16 +39,17 @@ module.exports = chunk;
 // // // push a new chunk into "chunked" with the current element
 // // else add the current element into the chunk
 
-function chunk(array, size) {
-  const chunked = [];
-  let index = 0;
+// function chunk(array, size) {
+//   const chunked = [];
+//   let index = 0;
 
-  while (index < array.length) {
-    chunked.push(array.slice(index, index + size));
-    index += size;
-  }
-  return chunked;
-}
+//   while (index < array.length) {
+//     chunked.push(array.slice(index, index + size));
+//     index += size;
+//   }
+
+//   return chunked;
+// }
 
 // Create empty chunked array
 // Create index start at 0

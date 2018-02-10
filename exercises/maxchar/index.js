@@ -5,36 +5,22 @@
 // maxChar("abcccccccd") === "c"
 // maxChar("apple 1231111") === "1"
 
-// ============================
-// My solution
-// ============================
-function maxChar(str) {
-  const charCount = {};
+const maxChar = str => {
+  const hash = {};
   let max = -Infinity;
   let maxChar;
 
   for (let char of str) {
-    // if (!charCount[char]) {
-    //   charCount[char] = 1;
-    // } else {
-    //   // charCount[char] += 1;
-    //   charCount[char]++;
-    // }
+    hash[char] = hash[char]++ || 1;
+  } 
 
-    charCount[char] = charCount[char]++ || 1;
-  }
-
-  // console.log(charCount)
-
-  for (let val in charCount) {
-    // console.log(charCount[val]);
-    if (charCount[val] > max) {
-      max = charCount[val];
+  for (let val in hash) {
+    if (hash[val] > max) {
+      max = hash[val];
       maxChar = val;
     }
   }
 
-  // console.log(maxChar)
   return maxChar;
 }
 

@@ -64,29 +64,30 @@ anagrams('Hi there', 'Bye there') // --> False
 // Solution # 1
 // ============================
 function anagrams(stringA, stringB) {
-  const aCharMap = buildCharMap(stringA);
-  const bCharMap = buildCharMap(stringB);
+  const aMap = buildCharMap(stringA);
+  const bMap = buildCharMap(stringB);
 
-  if (Object.keys(aCharMap).length !== Object.keys(bCharMap).length) {
+  if (Object.keys(aMap).length !== Object.keys(bMap).length) {
     return false;
   }
 
-  for (let char in aCharMap) {
-    if (aCharMap[char] !== bCharMap[char]) {
+  for (let char in aMap) {
+    if (aMap[char] !== bMap[char]) {
       return false;
     }
   }
+
   return true;
 }
 
 function buildCharMap(str) {
-  const charMap = {};
+  const map = {};
 
   for (let char of str.replace(/[^\w]/g, '').toLowerCase()) {
-    charMap[char] = charMap[char] + 1 || 1;
+    map[char] = map[char]++ || 1;
   }
 
-  return charMap;
+  return map;
 }
 
 // ============================
@@ -97,5 +98,12 @@ function anagrams(stringA, stringB) {
 }
 
 function cleanString(str) {
-  return str.replace(/[^\w]/g, '').toLowerCase().split('').sort().join('');
+  return str
+    .replace(/[^\w]/g, "")
+    .toLowerCase()
+    .split("")
+    .sort()
+    .join("");
 }
+
+cleanString("fairy tale");

@@ -1,17 +1,17 @@
 # AlgoCasts/exercises
 
-- [x] reversestring
-- [x] palindrome
-- [x] reverseint
-- [x] maxchar
-- [x] fizzbuzz
-- [x] chunk
-- [x] anagrams
-- [x] capitalize
-- [x] steps
-- [x] pyramid
-- [x] vowels
-- [x] matrix
+- [x] reversestring x
+- [x] palindrome x
+- [x] reverseint x
+- [x] maxchar x
+- [x] fizzbuzz x
+- [x] chunk x
+- [x] anagrams x
+- [x] capitalize x
+- [x] steps x
+- [x] pyramid x
+- [x] vowels x
+- [x] matrix 
 - [x] fib
 - [x] queue
 - [x] weave
@@ -29,4 +29,5 @@
 - [x] sorting
 
 # AlgoCasts/leetcode
-- [ ] twosum
+- [x] twosum x
+- [ ] twonumbers
