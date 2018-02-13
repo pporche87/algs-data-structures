@@ -42,9 +42,9 @@
 - [x] meanmedianmode
 - [x] twosum
 - [x] binarysearch
-- [ ] fibonnaci
-- [ ] memoizedfib
-- [ ] sieve 
-- [ ] bubblesort
-- [ ] mergesort
-- [ ] maxstock
+- [x] fibonnaci
+- [x] memoizedfib
+- [x] sieve 
+- [x] bubblesort
+- [x] mergesort
+- [x] maxstock
