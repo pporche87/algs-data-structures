@@ -40,3 +40,11 @@
 - [x] reversewords
 - [x] reversearrayinplace
 - [x] meanmedianmode
+- [x] twosum
+- [x] binarysearch
+- [ ] fibonnaci
+- [ ] memoizedfib
+- [ ] sieve 
+- [ ] bubblesort
+- [ ] mergesort
+- [ ] maxstock
