@@ -61,7 +61,7 @@
     - [x] urlify
     - [x] palperm
     - [x] oneaway
-    - [ ] stringcompr
+    - [x] stringcompr
     - [ ] rotmatrix
     - [ ] zeromatrix
     - [ ] stringrot 
