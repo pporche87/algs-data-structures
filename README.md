@@ -60,7 +60,7 @@
     - [x] checkperm
     - [x] urlify
     - [x] palperm
-    - [ ] oneaway
+    - [x] oneaway
     - [ ] stringcompr
     - [ ] rotmatrix
     - [ ] zeromatrix
