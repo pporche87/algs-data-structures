@@ -59,7 +59,7 @@
     - [x] isunique
     - [x] checkperm
     - [x] urlify
-    - [ ] palperm
+    - [x] palperm
     - [ ] oneaway
     - [ ] stringcompr
     - [ ] rotmatrix
