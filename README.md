@@ -51,5 +51,5 @@
 
 # AlgoCasts/datajavascript
 - [x] linkedlist
-- [ ] binsearchtree
-- [ ] hashtable
+- [x] binsearchtree
+- [x] hashtable
