@@ -48,3 +48,8 @@
 - [x] bubblesort
 - [x] mergesort
 - [x] maxstock
+
+# AlgoCasts/datajavascript
+- [x] linkedlist
+- [ ] binsearchtree
+- [ ] hashtable
