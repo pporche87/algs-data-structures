@@ -53,3 +53,15 @@
 - [x] linkedlist
 - [x] binsearchtree
 - [x] hashtable
+
+# AlgoCasts/ctci
+- [ ] arraysstrings
+    - [x] isunique
+    - [x] checkperm
+    - [x] urlify
+    - [ ] palperm
+    - [ ] oneaway
+    - [ ] stringcompr
+    - [ ] rotmatrix
+    - [ ] zeromatrix
+    - [ ] stringrot 
