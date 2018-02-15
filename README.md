@@ -64,4 +64,4 @@
     - [x] stringcompr
     - [x] rotmatrix
     - [x] zeromatrix
-    - [ ] stringrot 
+    - [x] stringrot 
