@@ -55,7 +55,7 @@
 - [x] hashtable
 
 # AlgoCasts/ctci
-- [ ] arraysstrings
+- [x] arraysstrings
     - [x] isunique
     - [x] checkperm
     - [x] urlify
