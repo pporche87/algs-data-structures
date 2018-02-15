@@ -62,6 +62,6 @@
     - [x] palperm
     - [x] oneaway
     - [x] stringcompr
-    - [ ] rotmatrix
-    - [ ] zeromatrix
+    - [x] rotmatrix
+    - [x] zeromatrix
     - [ ] stringrot 
