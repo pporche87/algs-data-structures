@@ -65,3 +65,14 @@
     - [x] rotmatrix
     - [x] zeromatrix
     - [x] stringrot 
+
+# AlgoCasts/frontendmasters
+- [x] stack 
+    - [ ] exercise1
+    - [ ] exercise2
+    - [ ] exercise3
+    - [ ] exercise4
+- [x] queue
+    - [x] exercises1
+    - [x] exercises2
+    - [ ] exercises3
