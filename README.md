@@ -76,3 +76,13 @@
     - [x] exercises1
     - [x] exercises2
     - [ ] exercises3
+- [ ] recursion 
+    - [ ] factorial
+    - [ ] fibonacci
+    - [ ] flatten
+    - [ ] greatestcommondivisor
+    - [ ] paintfill
+    - [ ] pathcount
+    - [ ] recursionintro
+    - [ ] reverse
+    - [ ] stringpermutation
