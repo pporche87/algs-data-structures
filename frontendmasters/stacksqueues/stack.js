@@ -102,7 +102,7 @@ What's the time complexity?
      this.count = 0;
    }
 
-   push(value) {
+   myPush(value) {
      if (this.count < this.capacity) {
        this.storage[++this.count] = value;
        return this.count;
@@ -110,21 +110,21 @@ What's the time complexity?
      return 'Max capacity already reached. Remove element before adding a new one.'
    }
 
-   pop() {
-    const element = this.storage[this.count];
+   myPop() {
+    const element = this.storage[--this.count];
     delete this.storage[this.count];
     return element;
    }
 
-   peek() {
-     return this.storage[this.count];
+   myPeek() {
+     return this.storage[this.count-1];
    }
 
-   count() {
+   myCount() {
      return this.count;
    }
 
-   contains(value) {
+   myContains(value) {
      for (let i = 0; i < this.count; i++) {
        if (this.storage[i] === value) {
          return true;
@@ -133,7 +133,7 @@ What's the time complexity?
      return false;
    }
 
-   until(value) {
+   myUntil(value) {
      let numPops = 0;
      for (let i = 0; i < this.count; i++) {
         numPops++;
@@ -146,14 +146,14 @@ What's the time complexity?
 
  }
 
- const myStack = new Stack(10);
- console.log(myStack.push(2))
- console.log(myStack.push(5))
- console.log(myStack.push(7))
- console.log(myStack.push(3))
- console.log(myStack.push(6))
- console.log(myStack.push(9))
- console.log(myStack.until(7))
+//  const myStack = new Stack(10);
+//  console.log(myStack.push(2))
+//  console.log(myStack.push(5))
+//  console.log(myStack.push(7))
+//  console.log(myStack.push(3))
+//  console.log(myStack.push(6))
+//  console.log(myStack.push(9))
+//  console.log(myStack.until(7))
 
  /*
 *** Exercises:
@@ -173,3 +173,62 @@ You are given three towers (stacks) and N disks, each of different size. You can
    3. no disk can be placed on top of a disk that is smaller than it
 The disks begin on tower#1. Write a function that will move the disks from tower#1 to tower#3 in such a way that none of the constraints are violated.
  */
+
+ class StackWithMin {
+   constructor(capacity) {
+     this.capacity = capacity;
+     this.storage = {};
+     this.count = 0;
+     this.min = new Stack(capacity);
+   }
+
+   push(value) {
+     if (this.count < this.capacity) {
+       if (this.min.myPeek() < value) {
+         this.min.myPush(this.min.myPeek());
+       } else {
+         this.min.myPush(value);
+       }
+       this.storage[this.count++] = value;
+       return this.count;
+     }
+     return 'Max capacity already reached. Remove element before adding a new one.'
+   }
+
+   pop() {
+     this.min.myPop();
+     const element = this.storage[--this.count];
+     delete this.storage[this.count];
+     if (this.count < 0) {
+       this.count = 0;
+     }
+   }
+
+   peek() {
+    return this.storage[this.count-1]
+   }
+
+   myCount() {
+    return this.count;
+   }
+
+   myMin() {
+     return this.min.myPeek();
+   }
+ }
+
+ const myStackWithMin = new StackWithMin(5);
+
+ myStackWithMin.push(1);
+ myStackWithMin.push(2);
+ myStackWithMin.push(3);
+ myStackWithMin.push(4);
+ myStackWithMin.push(5);
+ console.log(myStackWithMin.storage);
+ myStackWithMin.pop()
+ myStackWithMin.pop()
+ myStackWithMin.pop()
+ console.log(myStackWithMin.storage);
+ console.log(myStackWithMin.peek())
+ console.log(myStackWithMin.myCount())
+ console.log(myStackWithMin.myMin())

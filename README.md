@@ -68,7 +68,7 @@
 
 # AlgoCasts/frontendmasters
 - [x] stack 
-    - [ ] exercise1
+    - [x] exercise1
     - [ ] exercise2
     - [ ] exercise3
     - [ ] exercise4
