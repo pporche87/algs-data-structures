@@ -83,6 +83,6 @@
     - [ ] greatestcommondivisor
     - [ ] paintfill
     - [ ] pathcount
-    - [ ] recursionintro
+    - [x] recursionintro
     - [ ] reverse
     - [ ] stringpermutation
