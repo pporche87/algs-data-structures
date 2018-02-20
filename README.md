@@ -93,3 +93,7 @@
     - [x] merge
     - [ ] quick
     - [x] selection
+
+- [x] games
+    - [x] tetris
+    - [ ] tictactoelogic
