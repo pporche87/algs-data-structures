@@ -77,12 +77,19 @@
     - [x] exercises2
     - [ ] exercises3
 - [ ] recursion 
-    - [ ] factorial
-    - [ ] fibonacci
-    - [ ] flatten
-    - [ ] greatestcommondivisor
+    - [x] factorial
+    - [x] fibonacci
+    - [x] flatten
+    - [x] greatestcommondivisor
     - [ ] paintfill
     - [ ] pathcount
     - [x] recursionintro
-    - [ ] reverse
-    - [ ] stringpermutation
+    - [x] reverse
+    - [x] stringpermutation
+- [ ] sorting
+    - [x] bubble
+    - [ ] heap
+    - [ ] insertion
+    - [x] merge
+    - [ ] quick
+    - [x] selection
