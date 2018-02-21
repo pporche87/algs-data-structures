@@ -88,12 +88,17 @@
     - [x] stringpermutation
 - [ ] sorting
     - [x] bubble
-    - [ ] heap
-    - [ ] insertion
+    - [x] heap
+    - [x] insertion
     - [x] merge
-    - [ ] quick
+    - [x] quick
     - [x] selection
+- [ ] treesandsearching
+    - [x] linkedlist
+      - [ ] doublylinkedlist
+      - [ ] exercises
+    - [ ] tree
 
-- [x] games
+# AlgoCasts/games
     - [x] tetris
     - [ ] tictactoelogic
