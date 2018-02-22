@@ -97,7 +97,9 @@
     - [x] linkedlist
       - [ ] doublylinkedlist
       - [ ] exercises
-    - [ ] tree
+    - [x] tree
+- [ ] binarytrees
+    - [ ] bst
 
 # AlgoCasts/games
     - [x] tetris
